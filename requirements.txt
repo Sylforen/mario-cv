@@ -1,0 +1,8 @@
+numpy==1.24.3
+gym==0.26.2
+gym-super-mario-bros==7.3.0
+nes-py==8.2.1
+opencv-python-headless==4.7.0.72
+Pillow==9.4.0
+tqdm==4.65.0
+pygame==2.1.3

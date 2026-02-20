@@ -4,7 +4,7 @@
   <img src="./best_run.gif" width="600"/>
 </p>
 
-This project demonstrates a lightweight reinforcement learning agent for Super Mario Bros. It uses simple sprite detection and proximity-based features (distance to enemies, obstacles, and gaps) for decision-making. The agent also tracks areas of repeated failure and increases exploration near those points. The best-performing episode is saved as `best_run.gif`.
+This project demonstrates a lightweight reinforcement learning agent for Super Mario Bros. It uses simple sprite detection and tracks objects in the scene with basic vector maths to aid with decision making. The agent also tracks areas of repeated failure and increases exploration near those coordinates. The best-performing episode of the run is saved here as 'best_gif.gif'.
 
 ---
 

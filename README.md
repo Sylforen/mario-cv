@@ -1,4 +1,6 @@
-# Vectorised Epsilon-Greedy RL in Super Mario Bros
+<p align="center">
+  <h1 align="center">Vectorised Epsilon-Greedy RL in Super Mario Bros</h1>
+</p>
 
 <p align="center">
   <img src="./best_run.gif" width="600"/>
@@ -8,22 +10,24 @@ This project demonstrates a lightweight reinforcement learning agent for Super M
 
 ---
 
-## Getting Started
 
-### Clone the Project
+<p align="center">
+  <h1 align="center">Getting Started</h1>
+</p>
+
+<p align="center">
+  <h2 align="center">Clone the repo</h2>
+</p>
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Install Dependencies
-pip install -r requirements.txt
+git clone https://github.com/Sylforen/mario-cv.git
+cd mario-cv/
 ```
 
-Or manually:
+Install dependencies:
 
 ```bash
-pip install gym gym-super-mario-bros nes-py numpy opencv-python pillow tqdm
-Running the Agent
+pip install -r requirements.txt
 ```
 
 Start training:
@@ -34,12 +38,14 @@ python main.py --episodes 50 --enemy_factor 0.95 --gap_factor 0.9
 
 Press q to close the display window at any time.
 
-## Docker (Optional)
-Build the Docker Image
+<p align="center">
+  <h2 align="center">Docker</h2>
+</p>
+
 ```bash
 docker build -t mario-ml .
 ```
-Run the Container
+
 ```bash
 docker run --gpus all -it --rm -v "$PWD":/app mario-ml
 ```

@@ -6,7 +6,7 @@
   <img src="./best_run.gif" width="600"/>
 </p>
 
-This project demonstrates a lightweight reinforcement learning agent for Super Mario Bros. It uses simple sprite detection and tracks objects in the scene with basic vector maths to aid with decision making. The agent also tracks areas of repeated failure and increases exploration near those coordinates. The best-performing episode of the run is saved here as 'best_gif.gif'.
+This project demonstrates a lightweight reinforcement learning agent for Super Mario Bros. It uses simple sprite detection and tracks objects in the scene with basic vector maths to aid with decision making. The agent also tracks areas of repeated failure and increases exploration near those coordinates. The best-performing episode of the run is saved here. With the global best run being displayed at github.com/Sylforen
 
 ---
 

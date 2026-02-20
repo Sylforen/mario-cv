@@ -19,16 +19,6 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-### Set Up a Python Environment
-
-(Optional but recommended)
-
-```bash
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
-```
-
 ### Install Dependencies
 
 ```bash
